@@ -1,16 +1,70 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz for My Friend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+            background-color: #f0f8ff;
+        }
 
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        .question {
+            margin: 30px 0;
+            font-size: 20px;
+        }
+
+        .options label {
+            font-size: 18px;
+            display: block;
+            margin: 10px 0;
+        }
+
+        /* Exact styling for the quotation as required */
+        blockquote {
+            max-width: 600px;
+            margin: 10px auto;
+            padding: 15px 15px 15px 25px;
+            border-left: 8px solid green;
+            background-color: #f8fffe;
+            font-weight: bold;
+            color: #2c3e50;
+            font-style: italic;
+        }
+
+        blockquote footer {
+            font-weight: normal;
+            font-size: 14px;
+            text-align: right;
+            margin-top: 10px;
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <h1>Quick Trivia Quiz</h1>
+
+    <div class="question">
+        <p>What is the capital of India?</p>
+
+        <div class="options">
+            <label><input type="radio" name="capital" value="delhi"> New Delhi</label>
+            <label><input type="radio" name="capital" value="mumbai"> Mumbai</label>
+        </div>
+    </div>
+
+    <!-- Exact quotation with required styling -->
+    <blockquote>
+        New Delhi is the capital of India and an administrative district of NCT Delhi.
+        <footer>— Wikipedia</footer>
+    </blockquote>
 
 </body>
-
 </html>
